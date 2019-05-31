@@ -24,6 +24,8 @@ app.get("/api/hello", function (req, res) {
   res.json({greeting: 'hello API'});
 });
 
+//Timestamp Microservice
+
 const canDateBeParsed = function(str) {
     var date = new Date(str);
     if (Date.parse(date)) return true;
